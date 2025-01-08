@@ -6,7 +6,7 @@ This repository contains the code and resources for the project in the Computati
 
 ## Project Overview
 
-The goal of this project is to evaluate the effectiveness of integrating textual and audio features for song topic classification. By leveraging a combination of BERT for lyrics and audio feature analysis, the multimodal model significantly outperforms the unimodal baseline.
+The goal of this project is to evaluate the effectiveness of integrating textual and audio features for song topic classification. By leveraging a combination of BERT for lyrics and audio feature analysis.
 
 ## Features
 
