@@ -14,10 +14,10 @@ from sklearn.metrics import accuracy_score, classification_report
 
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
-df = pd.read_csv('./Music Dataset Lyrics and Metadata from 1950 to 2019/tcc_ceds_music.csv')  # Replace with your dataset
+df = pd.read_csv('./Music Dataset Lyrics and Metadata from 1950 to 2019/tcc_ceds_music.csv')  
 
 lyrics = df['lyrics']
-audio_features = df[['loudness', 'acousticness', 'danceability', 'instrumentalness']]  # Replace with actual feature names
+audio_features = df[['loudness', 'acousticness', 'danceability', 'instrumentalness']]
 topics = df['topic']
 #norm audio
 scaler = MinMaxScaler()
