@@ -20,7 +20,7 @@ The goal of this project is to evaluate the effectiveness of integrating textual
 Clone the repository:
 ```bash
 git clone https://github.com/hjv300/repo_for_reexam_ccs2.git
-cd multimodal-song-classification 
+cd repo_for_reexam_ccs2 
 ```
 
 Install dependencies:
